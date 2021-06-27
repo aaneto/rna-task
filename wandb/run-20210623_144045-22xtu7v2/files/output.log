@@ -1,0 +1,187 @@
+Model: "sequential_22"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+reshape_22 (Reshape)         (None, 600, 1)            0
+_________________________________________________________________
+conv1d_44 (Conv1D)           (None, 551, 30)           1530
+_________________________________________________________________
+conv1d_45 (Conv1D)           (None, 549, 50)           4550
+_________________________________________________________________
+global_average_pooling1d_20  (None, 50)                0
+_________________________________________________________________
+dropout_21 (Dropout)         (None, 50)                0
+_________________________________________________________________
+dense_22 (Dense)             (None, 6)                 306
+=================================================================
+Total params: 6,386
+Trainable params: 6,386
+Non-trainable params: 0
+_________________________________________________________________
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f696cf30c10> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[[0.68678385 0.07564582 0.03303176 0.16757049 0.01814106 0.01882703]]
+Model: "sequential_23"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+reshape_23 (Reshape)         (None, 600, 1)            0
+_________________________________________________________________
+conv1d_46 (Conv1D)           (None, 551, 30)           1530
+_________________________________________________________________
+conv1d_47 (Conv1D)           (None, 549, 50)           4550
+_________________________________________________________________
+global_average_pooling1d_21  (None, 50)                0
+_________________________________________________________________
+dropout_22 (Dropout)         (None, 50)                0
+_________________________________________________________________
+dense_23 (Dense)             (None, 6)                 306
+=================================================================
+Total params: 6,386
+Trainable params: 6,386
+Non-trainable params: 0
+_________________________________________________________________
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f696cf30d30> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[[0.6366529  0.07597885 0.05192346 0.18722242 0.0265554  0.02166695]]
+Model: "sequential_24"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+conv1d_48 (Conv1D)           (None, 551, 30)           1530
+_________________________________________________________________
+conv1d_49 (Conv1D)           (None, 549, 50)           4550
+_________________________________________________________________
+global_average_pooling1d_22  (None, 50)                0
+_________________________________________________________________
+dropout_23 (Dropout)         (None, 50)                0
+_________________________________________________________________
+dense_24 (Dense)             (None, 6)                 306
+=================================================================
+Total params: 6,386
+Trainable params: 6,386
+Non-trainable params: 0
+_________________________________________________________________
+(600,)
+Model: "sequential_25"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+reshape_24 (Reshape)         (None, 600, 1)            0
+_________________________________________________________________
+conv1d_50 (Conv1D)           (None, 551, 30)           1530
+_________________________________________________________________
+conv1d_51 (Conv1D)           (None, 549, 50)           4550
+_________________________________________________________________
+global_average_pooling1d_23  (None, 50)                0
+_________________________________________________________________
+dropout_24 (Dropout)         (None, 50)                0
+_________________________________________________________________
+dense_25 (Dense)             (None, 6)                 306
+=================================================================
+Total params: 6,386
+Trainable params: 6,386
+Non-trainable params: 0
+_________________________________________________________________
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f696fef6550> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[[0.581141   0.08166829 0.05498487 0.22531687 0.03647321 0.02041575]]
+(600,)
+Model: "sequential_26"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+reshape_25 (Reshape)         (None, 600, 1)            0
+_________________________________________________________________
+conv1d_52 (Conv1D)           (None, 551, 30)           1530
+_________________________________________________________________
+conv1d_53 (Conv1D)           (None, 549, 50)           4550
+_________________________________________________________________
+global_average_pooling1d_24  (None, 50)                0
+_________________________________________________________________
+dropout_25 (Dropout)         (None, 50)                0
+_________________________________________________________________
+dense_26 (Dense)             (None, 6)                 306
+=================================================================
+Total params: 6,386
+Trainable params: 6,386
+Non-trainable params: 0
+_________________________________________________________________
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f696f86df70> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[[0.6075374  0.08028661 0.05007119 0.20399252 0.03588715 0.02222512]]
+Model: "sequential_27"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+reshape_26 (Reshape)         (None, 600, 1)            0
+_________________________________________________________________
+conv1d_54 (Conv1D)           (None, 551, 30)           1530
+_________________________________________________________________
+conv1d_55 (Conv1D)           (None, 549, 50)           4550
+_________________________________________________________________
+global_average_pooling1d_25  (None, 50)                0
+_________________________________________________________________
+dropout_26 (Dropout)         (None, 50)                0
+_________________________________________________________________
+dense_27 (Dense)             (None, 6)                 306
+=================================================================
+Total params: 6,386
+Trainable params: 6,386
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_28"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+reshape_27 (Reshape)         (None, 600, 1)            0
+_________________________________________________________________
+conv1d_56 (Conv1D)           (None, 551, 30)           1530
+_________________________________________________________________
+conv1d_57 (Conv1D)           (None, 549, 50)           4550
+_________________________________________________________________
+global_average_pooling1d_26  (None, 50)                0
+_________________________________________________________________
+dropout_27 (Dropout)         (None, 50)                0
+_________________________________________________________________
+dense_28 (Dense)             (None, 6)                 306
+=================================================================
+Total params: 6,386
+Trainable params: 6,386
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_29"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+reshape_28 (Reshape)         (None, 600, 1)            0
+_________________________________________________________________
+conv1d_58 (Conv1D)           (None, 551, 30)           1530
+_________________________________________________________________
+conv1d_59 (Conv1D)           (None, 549, 50)           4550
+_________________________________________________________________
+global_average_pooling1d_27  (None, 50)                0
+_________________________________________________________________
+dropout_28 (Dropout)         (None, 50)                0
+_________________________________________________________________
+dense_29 (Dense)             (None, 6)                 306
+=================================================================
+Total params: 6,386
+Trainable params: 6,386
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_30"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+reshape_29 (Reshape)         (None, 600, 1)            0
+_________________________________________________________________
+conv1d_60 (Conv1D)           (None, 551, 30)           1530
+_________________________________________________________________
+conv1d_61 (Conv1D)           (None, 549, 50)           4550
+_________________________________________________________________
+global_average_pooling1d_28  (None, 50)                0
+_________________________________________________________________
+dropout_29 (Dropout)         (None, 50)                0
+_________________________________________________________________
+dense_30 (Dense)             (None, 6)                 306
+=================================================================
+Total params: 6,386
+Trainable params: 6,386
+Non-trainable params: 0

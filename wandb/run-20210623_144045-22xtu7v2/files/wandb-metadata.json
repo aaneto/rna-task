@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.72-microsoft-standard-WSL2-x86_64-with-glibc2.29",
+    "python": "3.8.5",
+    "heartbeatAt": "2021-06-23T17:40:51.860712",
+    "startedAt": "2021-06-23T17:40:45.500046",
+    "docker": null,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/aaneto/.local/share/jupyter/runtime/kernel-1f46090d-9e0b-47b1-9ded-1da0faadbcaf.json"
+    ],
+    "state": "running",
+    "program": "Author Identification.ipynb",
+    "root": "/home/aaneto/rna-work",
+    "git": {
+        "remote": "https://github.com/aaneto/rna-task.git",
+        "commit": "12c8118f07a70504a5ea12118a48bcd51e0ac669"
+    },
+    "email": "almeidneto@gmail.com",
+    "host": "aaneto-desktop",
+    "username": "aaneto",
+    "executable": "/usr/bin/python3"
+}
